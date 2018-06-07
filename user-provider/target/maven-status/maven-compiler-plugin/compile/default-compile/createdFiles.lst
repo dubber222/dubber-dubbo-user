@@ -1,0 +1,4 @@
+com\dubber\dubbo\user\balance\service\UserBalanceServiceImpl.class
+com\dubber\dubbo\user\UserServiceImpl.class
+com\dubber\dubbo\user\BootstrapUser.class
+com\dubber\dubbo\user\validator\UserValidator.class

@@ -15,7 +15,7 @@ import javax.annotation.Resource;
  */
 
 @Repository("userBalanceService")
-public class userBalanceServiceImpl implements IUserBalanceService {
+public class UserBalanceServiceImpl implements IUserBalanceService {
 
     @Resource
     private JdbcTemplate userJdbcTemplate;
@@ -28,9 +28,11 @@ public class userBalanceServiceImpl implements IUserBalanceService {
     @Override
     public Response updateUserBalance() {
         Response response = new Response();
-        userJdbcTemplate.execute("UPDAT `user` SET userBalance = userBalance + 29, createTime = NOW() WHERE userId = 1");
+        userJdbcTemplate.execute("UPDATE `user` SET balance = balance + 1 WHERE id = 1");
         response.setCode("200");
         response.setMemo("更新user余额成功!!");
+        System.out.println("updateUserBalance : " + response.toString());
         return response;
     }
+
 }

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dubbo-user.iml" filepath="$PROJECT_DIR$/dubbo-user.iml" />
-      <module fileurl="file://$PROJECT_DIR$/provider/provider.iml" filepath="$PROJECT_DIR$/provider/provider.iml" />
+      <module fileurl="file://D:\workspace_learn\dubber-dubbo-user\api\api.iml" filepath="D:\workspace_learn\dubber-dubbo-user\api\api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubber-dubbo-user.iml" filepath="$PROJECT_DIR$/dubber-dubbo-user.iml" />
+      <module fileurl="file://D:\workspace_learn\dubber-dubbo-user\dubbo-user.iml" filepath="D:\workspace_learn\dubber-dubbo-user\dubbo-user.iml" />
+      <module fileurl="file://D:\workspace_learn\dubber-dubbo-user\provider\provider.iml" filepath="D:\workspace_learn\dubber-dubbo-user\provider\provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-api/user-api.iml" filepath="$PROJECT_DIR$/user-api/user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-provider/user-provider.iml" filepath="$PROJECT_DIR$/user-provider/user-provider.iml" />
     </modules>
   </component>
 </project>
